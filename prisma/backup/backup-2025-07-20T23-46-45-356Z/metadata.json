@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-07-20T23:46:45.812Z",
+  "totalRecords": {
+    "users": 6,
+    "contratos": 2,
+    "chats": 9,
+    "messages": 70
+  },
+  "schemaVersion": "1.0"
+}

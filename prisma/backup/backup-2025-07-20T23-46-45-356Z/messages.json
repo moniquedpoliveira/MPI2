@@ -1,0 +1,562 @@
+[
+  {
+    "id": "nAWglevfU8TKKeOs",
+    "role": "user",
+    "content": "Liste todos os contratos que vencem em 30 dias",
+    "createdAt": "2025-06-12T00:27:33.401Z",
+    "chatId": "cmbsn36lu0000ld0440eakfff",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Liste todos os contratos que vencem em 30 dias\"}]"
+  },
+  {
+    "id": "msg-cb5apwL5p9GYwjKJbLaeoCc3",
+    "role": "assistant",
+    "content": "Nenhum contrato foi encontrado que vença em 30 dias a partir de hoje. Se precisar de mais assistência, estou à disposição para ajudar!",
+    "createdAt": "2025-06-12T00:27:37.121Z",
+    "chatId": "cmbsn36lu0000ld0440eakfff",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_Kn60LYHmQXp6rpfNkRDP3JIT\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Listar todos os contratos que vencem em 30 dias a partir de hoje.\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Nenhum contrato foi encontrado que vença em 30 dias a partir de hoje. Se precisar de mais assistência, estou à disposição para ajudar!\"}]"
+  },
+  {
+    "id": "PGnOVgdaGiJYVU7L",
+    "role": "user",
+    "content": "Quantos dias faltam para o vencer o contrato mais perto ",
+    "createdAt": "2025-06-12T00:28:01.638Z",
+    "chatId": "cmbsn36lu0000ld0440eakfff",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Quantos dias faltam para o vencer o contrato mais perto \"}]"
+  },
+  {
+    "id": "msg-yAo0qgjhI10a29UUUZVpri3j",
+    "role": "assistant",
+    "content": "O contrato com a data de vencimento mais próxima é o número **72100/2025-001/00**, e faltam **403 dias** para o seu vencimento. Se precisar de mais informações, estou à disposição para ajudar!",
+    "createdAt": "2025-06-12T00:28:06.749Z",
+    "chatId": "cmbsn36lu0000ld0440eakfff",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_9JvluWi0KrFJaHSDD48WERgl\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Quantos dias faltam para vencer o contrato com a data de vencimento mais próxima?\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[{\"numeroContrato\":\"72100/2025-001/00 \",\"dias_restantes\":{\"days\":403}}]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"O contrato com a data de vencimento mais próxima é o número **72100/2025-001/00**, e faltam **403 dias** para o seu vencimento. Se precisar de mais informações, estou à disposição para ajudar!\"}]"
+  },
+  {
+    "id": "SMOyS2pcHtdx2O30",
+    "role": "user",
+    "content": "Existe algum vitorelli como fiscal de algum contrato?",
+    "createdAt": "2025-06-12T00:33:46.578Z",
+    "chatId": "cmbsnb7jn0000s72gd15zs8k8",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Existe algum vitorelli como fiscal de algum contrato?\"}]"
+  },
+  {
+    "id": "msg-A64KqGmvvnsaGzZNlLy5A9mA",
+    "role": "assistant",
+    "content": "Sim, existe um fiscal chamado Vitorelli em pelo menos um contrato. Se precisar de mais informações sobre esse contrato ou sobre o fiscal, por favor, me avise!",
+    "createdAt": "2025-06-12T00:33:52.658Z",
+    "chatId": "cmbsnb7jn0000s72gd15zs8k8",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_BG8uuRi7LD2kaSISJ7khAYhQ\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Verificar se existe algum fiscal chamado Vitorelli em algum contrato.\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[{\"count\":\"1\"}]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Sim, existe um fiscal chamado Vitorelli em pelo menos um contrato. Se precisar de mais informações sobre esse contrato ou sobre o fiscal, por favor, me avise!\"}]"
+  },
+  {
+    "id": "ymZGpXtR0hX8n6FO",
+    "role": "user",
+    "content": "Me traga os dados desse contrato",
+    "createdAt": "2025-06-12T00:34:06.242Z",
+    "chatId": "cmbsnb7jn0000s72gd15zs8k8",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Me traga os dados desse contrato\"}]"
+  },
+  {
+    "id": "msg-D6sJSEyvEXlcQK6N5VcKdRJj",
+    "role": "assistant",
+    "content": "Aqui estão os dados do contrato onde o fiscal técnico é chamado Vitorelli:\n\n- **Número do Contrato:** 72100/2025-001/00\n- **Fiscal Administrativo:** 1T (IM) Lara Correa\n- **Fiscal Técnico:** 1T (IM) Vitorelli\n- **Fiscal Substituto:** 1T (IM) Jully\n\nSe precisar de mais informações ou de alguma ação específica, estou à disposição!",
+    "createdAt": "2025-06-12T00:34:11.225Z",
+    "chatId": "cmbsnb7jn0000s72gd15zs8k8",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_qLW5GlF0I35r5IZQja0jKxfA\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Obter dados do contrato onde o fiscal é chamado Vitorelli.\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[{\"numeroContrato\":\"72100/2025-001/00 \",\"fiscalAdministrativo\":\"1T (IM) LARA CORREA\",\"fiscalTecnico\":\"1T (IM) VITORELLI\",\"fiscalSubstituto\":\"1T (IM) JULLY\"}]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Aqui estão os dados do contrato onde o fiscal técnico é chamado Vitorelli:\\n\\n- **Número do Contrato:** 72100/2025-001/00\\n- **Fiscal Administrativo:** 1T (IM) Lara Correa\\n- **Fiscal Técnico:** 1T (IM) Vitorelli\\n- **Fiscal Substituto:** 1T (IM) Jully\\n\\nSe precisar de mais informações ou de alguma ação específica, estou à disposição!\"}]"
+  },
+  {
+    "id": "rqZTDIje1WsmhnrR",
+    "role": "user",
+    "content": "Quem é o Gestor?",
+    "createdAt": "2025-06-12T00:34:20.018Z",
+    "chatId": "cmbsnb7jn0000s72gd15zs8k8",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Quem é o Gestor?\"}]"
+  },
+  {
+    "id": "msg-Cy3FmpftLcFP8n82ipjjPauw",
+    "role": "assistant",
+    "content": "Não foi possível encontrar informações sobre o gestor do contrato número 72100/2025-001/00. Se precisar de mais assistência, por favor, me avise!",
+    "createdAt": "2025-06-12T00:34:27.666Z",
+    "chatId": "cmbsnb7jn0000s72gd15zs8k8",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_RJZ08cEx9ppd0kDipfu1anFI\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Obter o nome do gestor do contrato número 72100/2025-001/00.\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Não foi possível encontrar informações sobre o gestor do contrato número 72100/2025-001/00. Se precisar de mais assistência, por favor, me avise!\"}]"
+  },
+  {
+    "id": "Y5bh2YsWsW44RW8f",
+    "role": "user",
+    "content": "E Monique tem?",
+    "createdAt": "2025-06-12T00:34:58.521Z",
+    "chatId": "cmbsnb7jn0000s72gd15zs8k8",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"E Monique tem?\"}]"
+  },
+  {
+    "id": "msg-4ptdKSlJUpHI133m33NnEctA",
+    "role": "assistant",
+    "content": "Sim, existe uma gestora chamada Monique Dias em pelo menos um contrato. Se precisar de mais informações sobre esse contrato ou sobre a gestora, por favor, me avise!",
+    "createdAt": "2025-06-12T00:35:04.154Z",
+    "chatId": "cmbsnb7jn0000s72gd15zs8k8",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_4BoBVHsjg1JL3oapAXiWu94I\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Verificar se existe algum gestor chamado Monique em algum contrato.\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[{\"gestorContrato\":\"1T (IM) MONIQUE DIAS\",\"count\":\"1\"}]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Sim, existe uma gestora chamada Monique Dias em pelo menos um contrato. Se precisar de mais informações sobre esse contrato ou sobre a gestora, por favor, me avise!\"}]"
+  },
+  {
+    "id": "FC5ubCiRHYRsA4Vg",
+    "role": "user",
+    "content": "Qual a vigencia desse contrato?",
+    "createdAt": "2025-06-12T00:35:15.445Z",
+    "chatId": "cmbsnb7jn0000s72gd15zs8k8",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Qual a vigencia desse contrato?\"}]"
+  },
+  {
+    "id": "msg-JkToW9KZ09vgc06ABaGi5vGB",
+    "role": "assistant",
+    "content": "Não foi possível encontrar informações sobre a vigência do contrato onde a gestora é Monique Dias. Se precisar de mais assistência ou de outra informação, por favor, me avise!",
+    "createdAt": "2025-06-12T00:35:18.866Z",
+    "chatId": "cmbsnb7jn0000s72gd15zs8k8",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_ZNXi8p6kd3mC5YHWYOuShJ4l\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Obter a vigência do contrato onde a gestora é Monique Dias.\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Não foi possível encontrar informações sobre a vigência do contrato onde a gestora é Monique Dias. Se precisar de mais assistência ou de outra informação, por favor, me avise!\"}]"
+  },
+  {
+    "id": "WIzi36mx017SwIK8",
+    "role": "user",
+    "content": "Tente novamente",
+    "createdAt": "2025-06-12T00:38:06.835Z",
+    "chatId": "cmbsnb7jn0000s72gd15zs8k8",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Tente novamente\"}]"
+  },
+  {
+    "id": "msg-kfqcuc2y088VmGK5Vuo3eoOq",
+    "role": "assistant",
+    "content": "Ainda não foi possível encontrar informações sobre a vigência do contrato gerido por Monique Dias. Pode ser que esses dados não estejam disponíveis no momento. Se houver algo mais em que eu possa ajudar, por favor, me avise!",
+    "createdAt": "2025-06-12T00:38:13.819Z",
+    "chatId": "cmbsnb7jn0000s72gd15zs8k8",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_nzGdRJuOHmrhuXLUEACXHds6\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Obter a vigência do contrato gerido por Monique Dias.\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Ainda não foi possível encontrar informações sobre a vigência do contrato gerido por Monique Dias. Pode ser que esses dados não estejam disponíveis no momento. Se houver algo mais em que eu possa ajudar, por favor, me avise!\"}]"
+  },
+  {
+    "id": "PMUwN5g9wDhjkBza",
+    "role": "user",
+    "content": "Novamente",
+    "createdAt": "2025-06-12T00:40:05.733Z",
+    "chatId": "cmbsnb7jn0000s72gd15zs8k8",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Novamente\"}]"
+  },
+  {
+    "id": "msg-RXv2Lbzg3gShrclVPleal3Re",
+    "role": "assistant",
+    "content": "Infelizmente, ainda não consegui encontrar informações sobre a vigência do contrato onde Monique Dias é a gestora. Pode ser que esses dados não estejam disponíveis no sistema. Se precisar de mais alguma coisa, estou à disposição para ajudar!",
+    "createdAt": "2025-06-12T00:40:10.076Z",
+    "chatId": "cmbsnb7jn0000s72gd15zs8k8",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_q6Yu3hqmU6Ne6oRe3qXNC1D0\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Obter a vigência do contrato onde Monique Dias é a gestora.\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Infelizmente, ainda não consegui encontrar informações sobre a vigência do contrato onde Monique Dias é a gestora. Pode ser que esses dados não estejam disponíveis no sistema. Se precisar de mais alguma coisa, estou à disposição para ajudar!\"}]"
+  },
+  {
+    "id": "DXlbpXrOKtNQHP8M",
+    "role": "user",
+    "content": "Novamente",
+    "createdAt": "2025-06-12T00:41:18.489Z",
+    "chatId": "cmbsnb7jn0000s72gd15zs8k8",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Novamente\"}]"
+  },
+  {
+    "id": "msg-genNpJ7ix7UL3fN1ZKjS5c7z",
+    "role": "assistant",
+    "content": "Aqui estão os detalhes sobre a vigência do contrato onde Monique Dias é a gestora:\n\n- **Número do Contrato:** 72100/2025-001/00\n- **Início da Vigência:** 20 de julho de 2024\n- **Término da Vigência:** 20 de julho de 2026\n\nSe precisar de mais informações ou de alguma outra assistência, estou à disposição!",
+    "createdAt": "2025-06-12T00:41:23.570Z",
+    "chatId": "cmbsnb7jn0000s72gd15zs8k8",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_mzZy4PW9Thy92hen93mBZPyj\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Obter a vigência do contrato onde Monique Dias é a gestora.\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[{\"numeroContrato\":\"72100/2025-001/00 \",\"vigenciaInicio\":\"2024-07-20T03:00:00.000Z\",\"vigenciaTermino\":\"2026-07-20T03:00:00.000Z\"}]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Aqui estão os detalhes sobre a vigência do contrato onde Monique Dias é a gestora:\\n\\n- **Número do Contrato:** 72100/2025-001/00\\n- **Início da Vigência:** 20 de julho de 2024\\n- **Término da Vigência:** 20 de julho de 2026\\n\\nSe precisar de mais informações ou de alguma outra assistência, estou à disposição!\"}]"
+  },
+  {
+    "id": "xS6Gepc60ClsjtSi",
+    "role": "user",
+    "content": "Quantos dias faltam para o vencimento do contrato mais próximo?",
+    "createdAt": "2025-06-12T00:45:23.893Z",
+    "chatId": "cmbsnq50b0000jm04cedv2s0e",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Quantos dias faltam para o vencimento do contrato mais próximo?\"}]"
+  },
+  {
+    "id": "msg-FHjMW1fvOWQhNZkTqLaxdJQ8",
+    "role": "assistant",
+    "content": "O contrato mais próximo a vencer é o de número **72100/2025-002/00**, e faltam **393 dias** para o seu vencimento.",
+    "createdAt": "2025-06-12T00:45:27.237Z",
+    "chatId": "cmbsnq50b0000jm04cedv2s0e",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_Kh0kyZyoBuLmgp6rw8F51NOq\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"dias restantes para o vencimento do contrato mais próximo\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[{\"numeroContrato\":\"72100/2025-002/00 \",\"dias_restantes\":{\"days\":393}}]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"O contrato mais próximo a vencer é o de número **72100/2025-002/00**, e faltam **393 dias** para o seu vencimento.\"}]"
+  },
+  {
+    "id": "KMm891kLiIuXGjGG",
+    "role": "user",
+    "content": "Quem é o gestor e qual o numero de telefone do vitorelli",
+    "createdAt": "2025-06-12T00:46:01.712Z",
+    "chatId": "cmbsnq50b0000jm04cedv2s0e",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Quem é o gestor e qual o numero de telefone do vitorelli\"}]"
+  },
+  {
+    "id": "msg-IOMMXGvgLNxrhWWNuStzPUjl",
+    "role": "assistant",
+    "content": "Nenhum contrato ou informação correspondente ao nome \"Vitorelli\" foi encontrado. Se precisar de mais detalhes ou se houver algum erro no nome, por favor, verifique e tente novamente.",
+    "createdAt": "2025-06-12T00:46:06.980Z",
+    "chatId": "cmbsnq50b0000jm04cedv2s0e",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_tKsIqlnfspOIifUBCtjiNv7W\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"nome do gestor e número de telefone do Vitorelli\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Nenhum contrato ou informação correspondente ao nome \\\"Vitorelli\\\" foi encontrado. Se precisar de mais detalhes ou se houver algum erro no nome, por favor, verifique e tente novamente.\"}]"
+  },
+  {
+    "id": "95paqpZnTay0rdzP",
+    "role": "user",
+    "content": "Quem é o gestor desse contrato?",
+    "createdAt": "2025-06-12T00:46:23.668Z",
+    "chatId": "cmbsnq50b0000jm04cedv2s0e",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Quem é o gestor desse contrato?\"}]"
+  },
+  {
+    "id": "msg-2jThF1NqXEROfKcKMI2WTVsN",
+    "role": "assistant",
+    "content": "Não foi possível encontrar informações sobre o gestor do contrato número **72100/2025-002/00**. Pode haver um erro nos dados ou eles podem não estar disponíveis no momento. Se precisar de mais assistência, por favor, me avise!",
+    "createdAt": "2025-06-12T00:46:27.403Z",
+    "chatId": "cmbsnq50b0000jm04cedv2s0e",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_dzCj4bXAGg9UESzsg4FiJSPP\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"gestor do contrato número 72100/2025-002/00\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Não foi possível encontrar informações sobre o gestor do contrato número **72100/2025-002/00**. Pode haver um erro nos dados ou eles podem não estar disponíveis no momento. Se precisar de mais assistência, por favor, me avise!\"}]"
+  },
+  {
+    "id": "NhqhbFL4kiDiXepQ",
+    "role": "user",
+    "content": "Me traga informações desse contrato",
+    "createdAt": "2025-06-12T00:46:40.899Z",
+    "chatId": "cmbsnq50b0000jm04cedv2s0e",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Me traga informações desse contrato\"}]"
+  },
+  {
+    "id": "msg-Iy1iivbEDXOzXMcVaBBxFte1",
+    "role": "assistant",
+    "content": "Não foram encontradas informações sobre o contrato número **72100/2025-002/00**. Isso pode ocorrer devido a um erro nos dados ou à indisponibilidade das informações no momento. Se precisar de mais assistência ou se houver algo mais que eu possa fazer, por favor, me avise!",
+    "createdAt": "2025-06-12T00:46:45.321Z",
+    "chatId": "cmbsnq50b0000jm04cedv2s0e",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_DSRjZqtD9a3rkNuWgNBE5sa7\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"informações completas sobre o contrato número 72100/2025-002/00\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Não foram encontradas informações sobre o contrato número **72100/2025-002/00**. Isso pode ocorrer devido a um erro nos dados ou à indisponibilidade das informações no momento. Se precisar de mais assistência ou se houver algo mais que eu possa fazer, por favor, me avise!\"}]"
+  },
+  {
+    "id": "GkUtEApHLahCT2m8",
+    "role": "user",
+    "content": "qual telefone dela?",
+    "createdAt": "2025-06-12T00:47:18.163Z",
+    "chatId": "cmbsnb7jn0000s72gd15zs8k8",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"qual telefone dela?\"}]"
+  },
+  {
+    "id": "msg-dimJy5tmASZTfTqIfDhPEXWd",
+    "role": "assistant",
+    "content": "O telefone de contato da gestora Monique Dias é: **(21) 96546-6460**. \n\nSe precisar de mais alguma coisa, estou aqui para ajudar!",
+    "createdAt": "2025-06-12T00:47:23.839Z",
+    "chatId": "cmbsnb7jn0000s72gd15zs8k8",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_IEQdfyVa8ZOx0jXbe8veTOvY\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Obter o telefone de contato da gestora Monique Dias.\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[{\"gestorContrato\":\"1T (IM) MONIQUE DIAS\",\"telefoneGestor\":\"21965466460\"},{\"gestorContrato\":\"1T (IM) MONIQUE DIAS\",\"telefoneGestor\":\"21965466460\"}]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"O telefone de contato da gestora Monique Dias é: **(21) 96546-6460**. \\n\\nSe precisar de mais alguma coisa, estou aqui para ajudar!\"}]"
+  },
+  {
+    "id": "8NIIz3gqnlX0cr2V",
+    "role": "user",
+    "content": "Quantos dias faltam para o vencimento do contrato mais próximo?",
+    "createdAt": "2025-06-12T16:02:42.418Z",
+    "chatId": "cmbtkhu4f0000jp04kio54hh5",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Quantos dias faltam para o vencimento do contrato mais próximo?\"}]"
+  },
+  {
+    "id": "msg-JzEeGe7KRa3lpQ5MMuPpPNjf",
+    "role": "assistant",
+    "content": "O contrato mais próximo a vencer é o de número **72100/2025-002/00**, e faltam **393 dias** para o seu vencimento.",
+    "createdAt": "2025-06-12T16:02:49.845Z",
+    "chatId": "cmbtkhu4f0000jp04kio54hh5",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_8ETrNTrveEDFYarU2Bvujxo8\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Quantos dias faltam para o vencimento do contrato mais próximo?\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[{\"numeroContrato\":\"72100/2025-002/00 \",\"dias_restantes\":{\"days\":393}}]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"O contrato mais próximo a vencer é o de número **72100/2025-002/00**, e faltam **393 dias** para o seu vencimento.\"}]"
+  },
+  {
+    "id": "uVenUYGEQS5t48CX",
+    "role": "user",
+    "content": "Qual nome dos fiscais do contrato mais recente",
+    "createdAt": "2025-06-12T17:40:05.347Z",
+    "chatId": "cmbtnyzwm0000jx04mmgbnvp5",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Qual nome dos fiscais do contrato mais recente\"}]"
+  },
+  {
+    "id": "msg-4UxA0xLaukOEnyxnJGz1y6ES",
+    "role": "assistant",
+    "content": "Os fiscais do contrato mais recente são:\n\n- **Fiscal Administrativo:** 1T (IM) Lara Correa\n- **Fiscal Técnico:** 1T (IM) Vitorelli\n- **Fiscal Substituto:** 1T (IM) Jully",
+    "createdAt": "2025-06-12T17:40:08.568Z",
+    "chatId": "cmbtnyzwm0000jx04mmgbnvp5",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_NtiWelsnCzqpNRMnX77Zrpo6\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"nome dos fiscais do contrato mais recente\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[{\"fiscalAdministrativo\":\"1T (IM) LARA CORREA\",\"fiscalTecnico\":\"1T (IM) VITORELLI\",\"fiscalSubstituto\":\"1T (IM) JULLY\"}]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Os fiscais do contrato mais recente são:\\n\\n- **Fiscal Administrativo:** 1T (IM) Lara Correa\\n- **Fiscal Técnico:** 1T (IM) Vitorelli\\n- **Fiscal Substituto:** 1T (IM) Jully\"}]"
+  },
+  {
+    "id": "wiR0lmd6IjZ6egeK",
+    "role": "user",
+    "content": "Mande mensagem para o vitorelli dizendo que eu vi tudo",
+    "createdAt": "2025-06-12T17:40:30.100Z",
+    "chatId": "cmbtnyzwm0000jx04mmgbnvp5",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Mande mensagem para o vitorelli dizendo que eu vi tudo\"}]"
+  },
+  {
+    "id": "msg-eDavXTIG3UEfKsEr0AVfspXy",
+    "role": "assistant",
+    "content": "A mensagem foi enviada com sucesso para o fiscal técnico Vitorelli.",
+    "createdAt": "2025-06-12T17:40:38.605Z",
+    "chatId": "cmbtnyzwm0000jx04mmgbnvp5",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_Hy0I8yy9V2vDuS5vcfAxFKD1\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"número de telefone do fiscal técnico Vitorelli\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[{\"telefoneFiscalTec\":\"21975551168\",\"count\":\"1\"}]}}}},{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":1,\"toolCallId\":\"call_2g0rEiAHkKiWJZXiVmy9g387\",\"toolName\":\"sendWhatsappMessage\",\"args\":{\"message\":\"Eu vi tudo.\",\"phone\":\"21975551168\"},\"result\":{\"success\":true,\"message\":\"Mensagem enviada com sucesso.\",\"data\":{\"message\":\"Eu vi tudo.\",\"phone\":\"21975551168\",\"result\":{\"success\":true,\"message\":\"Mensagem enviada com sucesso.\"}}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"A mensagem foi enviada com sucesso para o fiscal técnico Vitorelli.\"}]"
+  },
+  {
+    "id": "aQYz2MePGojhxHGE",
+    "role": "user",
+    "content": "Em quais contratos a monique é gestora?",
+    "createdAt": "2025-06-12T18:02:08.428Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Em quais contratos a monique é gestora?\"}]"
+  },
+  {
+    "id": "msg-6ilYNtLdM45dVnbYCsxachDi",
+    "role": "assistant",
+    "content": "Monique é gestora dos seguintes contratos:\n\n1. **Número do Contrato:** 72100/2025-001/00\n   - **Gestora:** 1T (IM) Monique Dias\n\n2. **Número do Contrato:** 72100/2025-002/00\n   - **Gestora:** 1T (IM) Monique Dias\n\nSe precisar de mais informações sobre esses contratos, sinta-se à vontade para perguntar!",
+    "createdAt": "2025-06-12T18:02:13.189Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_5jKf1KaOcKXdkQMKZTRGZFJx\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Contratos onde Monique é a gestora\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[{\"numeroContrato\":\"72100/2025-001/00 \",\"gestorContrato\":\"1T (IM) MONIQUE DIAS\"},{\"numeroContrato\":\"72100/2025-002/00 \",\"gestorContrato\":\"1T (IM) MONIQUE DIAS\"}]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Monique é gestora dos seguintes contratos:\\n\\n1. **Número do Contrato:** 72100/2025-001/00\\n   - **Gestora:** 1T (IM) Monique Dias\\n\\n2. **Número do Contrato:** 72100/2025-002/00\\n   - **Gestora:** 1T (IM) Monique Dias\\n\\nSe precisar de mais informações sobre esses contratos, sinta-se à vontade para perguntar!\"}]"
+  },
+  {
+    "id": "7pMbV0chDwes0Fzz",
+    "role": "user",
+    "content": "Quais dias vencem cada um desses contratos?",
+    "createdAt": "2025-06-12T18:02:33.951Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Quais dias vencem cada um desses contratos?\"}]"
+  },
+  {
+    "id": "msg-le83F2N3eLyW1C0UxIYXirSG",
+    "role": "assistant",
+    "content": "Não foi possível encontrar informações sobre as datas de vencimento dos contratos 72100/2025-001/00 e 72100/2025-002/00. \n\nSe precisar de mais assistência ou informações adicionais, por favor, me avise!",
+    "createdAt": "2025-06-12T18:02:41.554Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_kWRMEMCpmuODzUKuqtkGxynF\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Data de vencimento dos contratos 72100/2025-001/00 e 72100/2025-002/00\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Não foi possível encontrar informações sobre as datas de vencimento dos contratos 72100/2025-001/00 e 72100/2025-002/00. \\n\\nSe precisar de mais assistência ou informações adicionais, por favor, me avise!\"}]"
+  },
+  {
+    "id": "eJj1mcwZMH2lpfqq",
+    "role": "user",
+    "content": "Pesquise por termino",
+    "createdAt": "2025-06-12T18:02:57.652Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Pesquise por termino\"}]"
+  },
+  {
+    "id": "msg-fKWInnfPSSQJJq1bIWLH22cZ",
+    "role": "assistant",
+    "content": "Não consegui encontrar informações sobre as datas de término dos contratos 72100/2025-001/00 e 72100/2025-002/00. \n\nSe precisar de mais assistência ou informações adicionais, por favor, me avise!",
+    "createdAt": "2025-06-12T18:03:02.206Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_xYvvrIJLv2MwlNMxTGoDcQks\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Data de término dos contratos 72100/2025-001/00 e 72100/2025-002/00\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Não consegui encontrar informações sobre as datas de término dos contratos 72100/2025-001/00 e 72100/2025-002/00. \\n\\nSe precisar de mais assistência ou informações adicionais, por favor, me avise!\"}]"
+  },
+  {
+    "id": "yyImqlDtT5P6Hldd",
+    "role": "user",
+    "content": "Tente novamente",
+    "createdAt": "2025-06-12T18:18:25.599Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Tente novamente\"}]"
+  },
+  {
+    "id": "msg-nysIc6WBHaadqutJI8nwUIMS",
+    "role": "assistant",
+    "content": "Ainda não consegui encontrar informações sobre as datas de término ou vencimento dos contratos 72100/2025-001/00 e 72100/2025-002/00. \n\nSe houver algo mais que eu possa fazer para ajudar, por favor, me avise!",
+    "createdAt": "2025-06-12T18:18:30.875Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_bgTits3An3s5W2ApQIGJUGyn\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Data de término ou vencimento dos contratos 72100/2025-001/00 e 72100/2025-002/00\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Ainda não consegui encontrar informações sobre as datas de término ou vencimento dos contratos 72100/2025-001/00 e 72100/2025-002/00. \\n\\nSe houver algo mais que eu possa fazer para ajudar, por favor, me avise!\"}]"
+  },
+  {
+    "id": "8vtm03RQTvONsJfO",
+    "role": "user",
+    "content": "Quais os contratos ativos?",
+    "createdAt": "2025-06-12T18:18:47.776Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Quais os contratos ativos?\"}]"
+  },
+  {
+    "id": "msg-FNC8ce7TeK5uINKKVJgFkit6",
+    "role": "assistant",
+    "content": "Aqui estão os contratos ativos:\n\n1. **Contrato Número:** 72100/2025-001/00\n   - **Processo Administrativo:** 62094.000247/2025-01\n   - **Modalidade de Licitação:** Pregão Eletrônico\n   - **Objeto:** Aquisição de sistema de exaustão\n   - **Órgão Contratante:** Centro de Instrução Almirante Newton Braga\n   - **Nome da Contratada:** Equipamentos de Cozinha LTDA\n   - **CNPJ da Contratada:** 99.658.112/3337-77\n   - **Representante Legal:** Márcio Souza Lima\n   - **Valor Total:** R$ 250.000,00\n   - **Data de Assinatura:** 20/07/2024\n   - **Vigência:** 20/07/2024 a 20/07/2026\n   - **Gestora do Contrato:** 1T (IM) Monique Dias\n\n2. **Contrato Número:** 72100/2025-002/00\n   - **Processo Administrativo:** 62094.000247/2025-02\n   - **Modalidade de Licitação:** Pregão Eletrônico\n   - **Objeto:** Contratação de serviço de dedetização\n   - **Órgão Contratante:** Centro de Instrução Almirante Newton Braga\n   - **Nome da Contratada:** Insetmil LTDA\n   - **CNPJ da Contratada:** 97.858.362/3777-79\n   - **Representante Legal:** Ana Lúcia Castro\n   - **Valor Total:** R$ 50.000,00\n   - **Data de Assinatura:** 10/07/2024\n   - **Vigência:** 10/07/2024 a 10/07/2026\n   - **Gestora do Contrato:** 1T (IM) Monique Dias\n\nSe precisar de mais detalhes ou informações adicionais, estou à disposição!",
+    "createdAt": "2025-06-12T18:18:57.233Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_03ZfssapcMOyah2RRmpdlQHL\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Lista de contratos ativos\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[{\"id\":\"e6b48533-136e-47a8-ab46-a36dd3622952\",\"numeroContrato\":\"72100/2025-001/00 \",\"processoAdministrativo\":\"62094.000247/2025-01\",\"modalidadeLicitacao\":\"Pregão Eletrônico\",\"objeto\":\"Aquisição de sistema de exaustão\",\"orgaoContratante\":\"Centro de Instrução Almirante Newton Braga\",\"nomeContratada\":\"Equipamentos de Cozinha LTDA\",\"cnpjContratada\":\"9965811233377\",\"representanteLegal\":\"MÁRCIO SOUZA LIMA\",\"enderecoContratada\":\"Avenida Brasil, nº 900 - Benfica, Rio de Janeiro - RJ\",\"telefoneContratada\":\"2136958569\",\"emailContratada\":\"emaildaempresa@gmail.com\",\"valorTotal\":250000,\"dataAssinatura\":\"2024-07-20T00:00:00.000Z\",\"vigenciaInicio\":\"2024-07-20T00:00:00.000Z\",\"vigenciaTermino\":\"2026-07-20T00:00:00.000Z\",\"dataBaseReajuste\":\"2025-07-20T00:00:00.000Z\",\"indiceReajuste\":\"IPCA\",\"tipoGarantia\":\"Seguro-garantia\",\"valorGarantia\":12500,\"vigenciaGarantia\":\"2026-10-18T00:00:00.000Z\",\"gestorContrato\":\"1T (IM) MONIQUE DIAS\",\"portariaGestor\":\"Portaria nº 84/2024\",\"emailGestor\":\"monique.pereira@marinha.mil.br\",\"telefoneGestor\":\"21965466460\",\"fiscalAdministrativo\":\"1T (IM) LARA CORREA\",\"portariaFiscalAdm\":\"Portaria nº 84/2024\",\"emailFiscalAdm\":\"lara.correa@marinha.mil.br\",\"telefoneFiscalAdm\":\"21998093933\",\"fiscalTecnico\":\"1T (IM) VITORELLI\",\"portariaFiscalTec\":\"Portaria nº 84/2024\",\"emailFiscalTec\":\"rafael.vitorelli@marinha.mil.br\",\"telefoneFiscalTec\":\"21975551168\",\"fiscalSubstituto\":\"1T (IM) JULLY\",\"portariaFiscalSub\":\"Portaria nº 84/2024\",\"emailFiscalSub\":\"jully@marinha.mil.br\",\"sancaoAdministrativa\":\"Multa de 0,5% do valor do contrato por sucessivas entregas com material de baixa qualidade\",\"createdAt\":\"2025-06-12T00:27:11.511Z\",\"updatedAt\":\"2025-06-12T00:27:11.511Z\",\"userId\":null},{\"id\":\"690eb404-aa99-4833-8260-2d474b7e50cf\",\"numeroContrato\":\"72100/2025-002/00 \",\"processoAdministrativo\":\"62094.000247/2025-02\",\"modalidadeLicitacao\":\"Pregão Eletrônico\",\"objeto\":\"Contratação de serviço de dedetização\",\"orgaoContratante\":\"Centro de Instrução Almirante Newton Braga\",\"nomeContratada\":\"Insetmil LTDA\",\"cnpjContratada\":\"9785836237779\",\"representanteLegal\":\"ANA LÚCIA CASTRO\",\"enderecoContratada\":\"Rua Lopes Souza, nº 10 - Madureira, Rio de Janeiro - RJ\",\"telefoneContratada\":\"2125698475\",\"emailContratada\":\"emaildenovoda@empresa.com\",\"valorTotal\":50000,\"dataAssinatura\":\"2024-07-10T00:00:00.000Z\",\"vigenciaInicio\":\"2024-07-10T00:00:00.000Z\",\"vigenciaTermino\":\"2026-07-10T00:00:00.000Z\",\"dataBaseReajuste\":\"2025-07-10T00:00:00.000Z\",\"indiceReajuste\":\"IPCA\",\"tipoGarantia\":\"Seguro-garantia\",\"valorGarantia\":2500,\"vigenciaGarantia\":\"2026-10-08T00:00:00.000Z\",\"gestorContrato\":\"1T (IM) MONIQUE DIAS\",\"portariaGestor\":\"Portaria nº 82/2024\",\"emailGestor\":\"monique.pereira@marinha.mil.br\",\"telefoneGestor\":\"21965466460\",\"fiscalAdministrativo\":\"1T (IM) HELENA DIAS\",\"portariaFiscalAdm\":\"Portaria nº 82/2024\",\"emailFiscalAdm\":\"helena.dias@marinha.mil.br\",\"telefoneFiscalAdm\":\"21996309140\",\"fiscalTecnico\":\"1T (IM) BANDEIRA\",\"portariaFiscalTec\":\"Portaria nº 82/2024\",\"emailFiscalTec\":\"pedro.bandeira@marinha.mil.br\",\"telefoneFiscalTec\":\"21999311495\",\"fiscalSubstituto\":\"1T (IM) NELSON\",\"portariaFiscalSub\":\"Portaria nº 82/2024\",\"emailFiscalSub\":\"nelson123@marinh23a.mil.br\",\"sancaoAdministrativa\":\"Advertência por atraso na prestação do serviço\",\"createdAt\":\"2025-06-12T00:44:57.235Z\",\"updatedAt\":\"2025-06-12T00:44:57.235Z\",\"userId\":null}]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Aqui estão os contratos ativos:\\n\\n1. **Contrato Número:** 72100/2025-001/00\\n   - **Processo Administrativo:** 62094.000247/2025-01\\n   - **Modalidade de Licitação:** Pregão Eletrônico\\n   - **Objeto:** Aquisição de sistema de exaustão\\n   - **Órgão Contratante:** Centro de Instrução Almirante Newton Braga\\n   - **Nome da Contratada:** Equipamentos de Cozinha LTDA\\n   - **CNPJ da Contratada:** 99.658.112/3337-77\\n   - **Representante Legal:** Márcio Souza Lima\\n   - **Valor Total:** R$ 250.000,00\\n   - **Data de Assinatura:** 20/07/2024\\n   - **Vigência:** 20/07/2024 a 20/07/2026\\n   - **Gestora do Contrato:** 1T (IM) Monique Dias\\n\\n2. **Contrato Número:** 72100/2025-002/00\\n   - **Processo Administrativo:** 62094.000247/2025-02\\n   - **Modalidade de Licitação:** Pregão Eletrônico\\n   - **Objeto:** Contratação de serviço de dedetização\\n   - **Órgão Contratante:** Centro de Instrução Almirante Newton Braga\\n   - **Nome da Contratada:** Insetmil LTDA\\n   - **CNPJ da Contratada:** 97.858.362/3777-79\\n   - **Representante Legal:** Ana Lúcia Castro\\n   - **Valor Total:** R$ 50.000,00\\n   - **Data de Assinatura:** 10/07/2024\\n   - **Vigência:** 10/07/2024 a 10/07/2026\\n   - **Gestora do Contrato:** 1T (IM) Monique Dias\\n\\nSe precisar de mais detalhes ou informações adicionais, estou à disposição!\"}]"
+  },
+  {
+    "id": "4WYTVbQ0KhoSjfqt",
+    "role": "user",
+    "content": "Sao todos? Ou é um so quero todos",
+    "createdAt": "2025-06-12T18:19:17.333Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Sao todos? Ou é um so quero todos\"}]"
+  },
+  {
+    "id": "msg-zxv3q9EdtCyHrRJGpcMeW4hz",
+    "role": "assistant",
+    "content": "Os contratos listados são os que estão atualmente ativos. Se houver mais contratos ativos que você gostaria de verificar, por favor, me avise, e eu posso tentar buscar novamente. \n\nSe precisar de mais alguma coisa, estou à disposição!",
+    "createdAt": "2025-06-12T18:19:19.497Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Os contratos listados são os que estão atualmente ativos. Se houver mais contratos ativos que você gostaria de verificar, por favor, me avise, e eu posso tentar buscar novamente. \\n\\nSe precisar de mais alguma coisa, estou à disposição!\"}]"
+  },
+  {
+    "id": "J2Q6BkPVTJ9t48D1",
+    "role": "user",
+    "content": "Tem algum inativou ",
+    "createdAt": "2025-06-12T18:19:59.280Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Tem algum inativou \"}]"
+  },
+  {
+    "id": "msg-Fa4bYpNDjsB19eVtzCx6aPMZ",
+    "role": "assistant",
+    "content": "Atualmente, não há contratos inativos registrados. \n\nSe precisar de mais alguma informação ou assistência, estou à disposição!",
+    "createdAt": "2025-06-12T18:20:06.032Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_ZfqKVdCmpf7HUtzp2ihi9z89\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Lista de contratos inativos\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Atualmente, não há contratos inativos registrados. \\n\\nSe precisar de mais alguma informação ou assistência, estou à disposição!\"}]"
+  },
+  {
+    "id": "85BLDs851VjCjGt9",
+    "role": "user",
+    "content": "Gere um relatório sobre todos os contratos,",
+    "createdAt": "2025-06-12T18:20:26.170Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Gere um relatório sobre todos os contratos,\"}]"
+  },
+  {
+    "id": "msg-BjxEOYUxW8qw20Kiv4QmmMmC",
+    "role": "assistant",
+    "content": "Aqui está um relatório sobre os contratos ativos:\n\n### Contrato 1\n- **Número do Contrato:** 72100/2025-001/00\n- **Processo Administrativo:** 62094.000247/2025-01\n- **Modalidade de Licitação:** Pregão Eletrônico\n- **Objeto:** Aquisição de sistema de exaustão\n- **Órgão Contratante:** Centro de Instrução Almirante Newton Braga\n- **Nome da Contratada:** Equipamentos de Cozinha LTDA\n- **CNPJ da Contratada:** 99.658.112/3337-77\n- **Representante Legal:** Márcio Souza Lima\n- **Endereço da Contratada:** Avenida Brasil, nº 900 - Benfica, Rio de Janeiro - RJ\n- **Telefone da Contratada:** 21 3695-8569\n- **Email da Contratada:** emaildaempresa@gmail.com\n- **Valor Total:** R$ 250.000,00\n- **Data de Assinatura:** 20/07/2024\n- **Vigência:** 20/07/2024 a 20/07/2026\n- **Data Base para Reajuste:** 20/07/2025\n- **Índice de Reajuste:** IPCA\n- **Tipo de Garantia:** Seguro-garantia\n- **Valor da Garantia:** R$ 12.500,00\n- **Vigência da Garantia:** Até 18/10/2026\n- **Gestora do Contrato:** 1T (IM) Monique Dias\n- **Email da Gestora:** monique.pereira@marinha.mil.br\n- **Telefone da Gestora:** 21 9654-66460\n- **Fiscal Administrativo:** 1T (IM) Lara Correa\n- **Email do Fiscal Administrativo:** lara.correa@marinha.mil.br\n- **Telefone do Fiscal Administrativo:** 21 9980-93933\n- **Fiscal Técnico:** 1T (IM) Vitorelli\n- **Email do Fiscal Técnico:** rafael.vitorelli@marinha.mil.br\n- **Telefone do Fiscal Técnico:** 21 9755-51168\n- **Fiscal Substituto:** 1T (IM) Jully\n- **Email do Fiscal Substituto:** jully@marinha.mil.br\n- **Sanção Administrativa:** Multa de 0,5% do valor do contrato por sucessivas entregas com material de baixa qualidade\n\n### Contrato 2\n- **Número do Contrato:** 72100/2025-002/00\n- **Processo Administrativo:** 62094.000247/2025-02\n- **Modalidade de Licitação:** Pregão Eletrônico\n- **Objeto:** Contratação de serviço de dedetização\n- **Órgão Contratante:** Centro de Instrução Almirante Newton Braga\n- **Nome da Contratada:** Insetmil LTDA\n- **CNPJ da Contratada:** 97.858.362/3777-79\n- **Representante Legal:** Ana Lúcia Castro\n- **Endereço da Contratada:** Rua Lopes Souza, nº 10 - Madureira, Rio de Janeiro - RJ\n- **Telefone da Contratada:** 21 2569-8475\n- **Email da Contratada:** emaildenovoda@empresa.com\n- **Valor Total:** R$ 50.000,00\n- **Data de Assinatura:** 10/07/2024\n- **Vigência:** 10/07/2024 a 10/07/2026\n- **Data Base para Reajuste:** 10/07/2025\n- **Índice de Reajuste:** IPCA\n- **Tipo de Garantia:** Seguro-garantia\n- **Valor da Garantia:** R$ 2.500,00\n- **Vigência da Garantia:** Até 08/10/2026\n- **Gestora do Contrato:** 1T (IM) Monique Dias\n- **Email da Gestora:** monique.pereira@marinha.mil.br\n- **Telefone da Gestora:** 21 9654-66460\n- **Fiscal Administrativo:** 1T (IM) Helena Dias\n- **Email do Fiscal Administrativo:** helena.dias@marinha.mil.br\n- **Telefone do Fiscal Administrativo:** 21 9963-09140\n- **Fiscal Técnico:** 1T (IM) Bandeira\n- **Email do Fiscal Técnico:** pedro.bandeira@marinha.mil.br\n- **Telefone do Fiscal Técnico:** 21 9993-11495\n- **Fiscal Substituto:** 1T (IM) Nelson\n- **Email do Fiscal Substituto:** nelson123@marinh23a.mil.br\n- **Sanção Administrativa:** Advertência por atraso na prestação do serviço\n\nSe precisar de mais informações ou detalhes adicionais, estou à disposição!",
+    "createdAt": "2025-06-12T18:20:35.802Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Aqui está um relatório sobre os contratos ativos:\\n\\n### Contrato 1\\n- **Número do Contrato:** 72100/2025-001/00\\n- **Processo Administrativo:** 62094.000247/2025-01\\n- **Modalidade de Licitação:** Pregão Eletrônico\\n- **Objeto:** Aquisição de sistema de exaustão\\n- **Órgão Contratante:** Centro de Instrução Almirante Newton Braga\\n- **Nome da Contratada:** Equipamentos de Cozinha LTDA\\n- **CNPJ da Contratada:** 99.658.112/3337-77\\n- **Representante Legal:** Márcio Souza Lima\\n- **Endereço da Contratada:** Avenida Brasil, nº 900 - Benfica, Rio de Janeiro - RJ\\n- **Telefone da Contratada:** 21 3695-8569\\n- **Email da Contratada:** emaildaempresa@gmail.com\\n- **Valor Total:** R$ 250.000,00\\n- **Data de Assinatura:** 20/07/2024\\n- **Vigência:** 20/07/2024 a 20/07/2026\\n- **Data Base para Reajuste:** 20/07/2025\\n- **Índice de Reajuste:** IPCA\\n- **Tipo de Garantia:** Seguro-garantia\\n- **Valor da Garantia:** R$ 12.500,00\\n- **Vigência da Garantia:** Até 18/10/2026\\n- **Gestora do Contrato:** 1T (IM) Monique Dias\\n- **Email da Gestora:** monique.pereira@marinha.mil.br\\n- **Telefone da Gestora:** 21 9654-66460\\n- **Fiscal Administrativo:** 1T (IM) Lara Correa\\n- **Email do Fiscal Administrativo:** lara.correa@marinha.mil.br\\n- **Telefone do Fiscal Administrativo:** 21 9980-93933\\n- **Fiscal Técnico:** 1T (IM) Vitorelli\\n- **Email do Fiscal Técnico:** rafael.vitorelli@marinha.mil.br\\n- **Telefone do Fiscal Técnico:** 21 9755-51168\\n- **Fiscal Substituto:** 1T (IM) Jully\\n- **Email do Fiscal Substituto:** jully@marinha.mil.br\\n- **Sanção Administrativa:** Multa de 0,5% do valor do contrato por sucessivas entregas com material de baixa qualidade\\n\\n### Contrato 2\\n- **Número do Contrato:** 72100/2025-002/00\\n- **Processo Administrativo:** 62094.000247/2025-02\\n- **Modalidade de Licitação:** Pregão Eletrônico\\n- **Objeto:** Contratação de serviço de dedetização\\n- **Órgão Contratante:** Centro de Instrução Almirante Newton Braga\\n- **Nome da Contratada:** Insetmil LTDA\\n- **CNPJ da Contratada:** 97.858.362/3777-79\\n- **Representante Legal:** Ana Lúcia Castro\\n- **Endereço da Contratada:** Rua Lopes Souza, nº 10 - Madureira, Rio de Janeiro - RJ\\n- **Telefone da Contratada:** 21 2569-8475\\n- **Email da Contratada:** emaildenovoda@empresa.com\\n- **Valor Total:** R$ 50.000,00\\n- **Data de Assinatura:** 10/07/2024\\n- **Vigência:** 10/07/2024 a 10/07/2026\\n- **Data Base para Reajuste:** 10/07/2025\\n- **Índice de Reajuste:** IPCA\\n- **Tipo de Garantia:** Seguro-garantia\\n- **Valor da Garantia:** R$ 2.500,00\\n- **Vigência da Garantia:** Até 08/10/2026\\n- **Gestora do Contrato:** 1T (IM) Monique Dias\\n- **Email da Gestora:** monique.pereira@marinha.mil.br\\n- **Telefone da Gestora:** 21 9654-66460\\n- **Fiscal Administrativo:** 1T (IM) Helena Dias\\n- **Email do Fiscal Administrativo:** helena.dias@marinha.mil.br\\n- **Telefone do Fiscal Administrativo:** 21 9963-09140\\n- **Fiscal Técnico:** 1T (IM) Bandeira\\n- **Email do Fiscal Técnico:** pedro.bandeira@marinha.mil.br\\n- **Telefone do Fiscal Técnico:** 21 9993-11495\\n- **Fiscal Substituto:** 1T (IM) Nelson\\n- **Email do Fiscal Substituto:** nelson123@marinh23a.mil.br\\n- **Sanção Administrativa:** Advertência por atraso na prestação do serviço\\n\\nSe precisar de mais informações ou detalhes adicionais, estou à disposição!\"}]"
+  },
+  {
+    "id": "mAj65oVQBrSL46Y2",
+    "role": "user",
+    "content": "Quero de forma organizada",
+    "createdAt": "2025-06-12T18:21:07.470Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Quero de forma organizada\"}]"
+  },
+  {
+    "id": "msg-dta7ypj9yGGs4Dxyu2DFVoIU",
+    "role": "assistant",
+    "content": "Aqui está o relatório dos contratos ativos, organizado de forma clara:\n\n---\n\n### **Contrato 1**\n\n- **Número do Contrato:** 72100/2025-001/00\n- **Processo Administrativo:** 62094.000247/2025-01\n- **Modalidade de Licitação:** Pregão Eletrônico\n- **Objeto:** Aquisição de sistema de exaustão\n- **Órgão Contratante:** Centro de Instrução Almirante Newton Braga\n\n**Contratada:**\n- **Nome:** Equipamentos de Cozinha LTDA\n- **CNPJ:** 99.658.112/3337-77\n- **Representante Legal:** Márcio Souza Lima\n- **Endereço:** Avenida Brasil, nº 900 - Benfica, Rio de Janeiro - RJ\n- **Telefone:** 21 3695-8569\n- **Email:** emaildaempresa@gmail.com\n\n**Detalhes Financeiros:**\n- **Valor Total:** R$ 250.000,00\n- **Data de Assinatura:** 20/07/2024\n- **Vigência:** 20/07/2024 a 20/07/2026\n- **Data Base para Reajuste:** 20/07/2025\n- **Índice de Reajuste:** IPCA\n- **Tipo de Garantia:** Seguro-garantia\n- **Valor da Garantia:** R$ 12.500,00\n- **Vigência da Garantia:** Até 18/10/2026\n\n**Gestão e Fiscalização:**\n- **Gestora do Contrato:** 1T (IM) Monique Dias\n  - **Email:** monique.pereira@marinha.mil.br\n  - **Telefone:** 21 9654-66460\n- **Fiscal Administrativo:** 1T (IM) Lara Correa\n  - **Email:** lara.correa@marinha.mil.br\n  - **Telefone:** 21 9980-93933\n- **Fiscal Técnico:** 1T (IM) Vitorelli\n  - **Email:** rafael.vitorelli@marinha.mil.br\n  - **Telefone:** 21 9755-51168\n- **Fiscal Substituto:** 1T (IM) Jully\n  - **Email:** jully@marinha.mil.br\n\n**Sanção Administrativa:**\n- Multa de 0,5% do valor do contrato por sucessivas entregas com material de baixa qualidade\n\n---\n\n### **Contrato 2**\n\n- **Número do Contrato:** 72100/2025-002/00\n- **Processo Administrativo:** 62094.000247/2025-02\n- **Modalidade de Licitação:** Pregão Eletrônico\n- **Objeto:** Contratação de serviço de dedetização\n- **Órgão Contratante:** Centro de Instrução Almirante Newton Braga\n\n**Contratada:**\n- **Nome:** Insetmil LTDA\n- **CNPJ:** 97.858.362/3777-79\n- **Representante Legal:** Ana Lúcia Castro\n- **Endereço:** Rua Lopes Souza, nº 10 - Madureira, Rio de Janeiro - RJ\n- **Telefone:** 21 2569-8475\n- **Email:** emaildenovoda@empresa.com\n\n**Detalhes Financeiros:**\n- **Valor Total:** R$ 50.000,00\n- **Data de Assinatura:** 10/07/2024\n- **Vigência:** 10/07/2024 a 10/07/2026\n- **Data Base para Reajuste:** 10/07/2025\n- **Índice de Reajuste:** IPCA\n- **Tipo de Garantia:** Seguro-garantia\n- **Valor da Garantia:** R$ 2.500,00\n- **Vigência da Garantia:** Até 08/10/2026\n\n**Gestão e Fiscalização:**\n- **Gestora do Contrato:** 1T (IM) Monique Dias\n  - **Email:** monique.pereira@marinha.mil.br\n  - **Telefone:** 21 9654-66460\n- **Fiscal Administrativo:** 1T (IM) Helena Dias\n  - **Email:** helena.dias@marinha.mil.br\n  - **Telefone:** 21 9963-09140\n- **Fiscal Técnico:** 1T (IM) Bandeira\n  - **Email:** pedro.bandeira@marinha.mil.br\n  - **Telefone:** 21 9993-11495\n- **Fiscal Substituto:** 1T (IM) Nelson\n  - **Email:** nelson123@marinh23a.mil.br\n\n**Sanção Administrativa:**\n- Advertência por atraso na prestação do serviço\n\n---\n\nSe precisar de mais informações ou ajustes, estou à disposição!",
+    "createdAt": "2025-06-12T18:21:18.388Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Aqui está o relatório dos contratos ativos, organizado de forma clara:\\n\\n---\\n\\n### **Contrato 1**\\n\\n- **Número do Contrato:** 72100/2025-001/00\\n- **Processo Administrativo:** 62094.000247/2025-01\\n- **Modalidade de Licitação:** Pregão Eletrônico\\n- **Objeto:** Aquisição de sistema de exaustão\\n- **Órgão Contratante:** Centro de Instrução Almirante Newton Braga\\n\\n**Contratada:**\\n- **Nome:** Equipamentos de Cozinha LTDA\\n- **CNPJ:** 99.658.112/3337-77\\n- **Representante Legal:** Márcio Souza Lima\\n- **Endereço:** Avenida Brasil, nº 900 - Benfica, Rio de Janeiro - RJ\\n- **Telefone:** 21 3695-8569\\n- **Email:** emaildaempresa@gmail.com\\n\\n**Detalhes Financeiros:**\\n- **Valor Total:** R$ 250.000,00\\n- **Data de Assinatura:** 20/07/2024\\n- **Vigência:** 20/07/2024 a 20/07/2026\\n- **Data Base para Reajuste:** 20/07/2025\\n- **Índice de Reajuste:** IPCA\\n- **Tipo de Garantia:** Seguro-garantia\\n- **Valor da Garantia:** R$ 12.500,00\\n- **Vigência da Garantia:** Até 18/10/2026\\n\\n**Gestão e Fiscalização:**\\n- **Gestora do Contrato:** 1T (IM) Monique Dias\\n  - **Email:** monique.pereira@marinha.mil.br\\n  - **Telefone:** 21 9654-66460\\n- **Fiscal Administrativo:** 1T (IM) Lara Correa\\n  - **Email:** lara.correa@marinha.mil.br\\n  - **Telefone:** 21 9980-93933\\n- **Fiscal Técnico:** 1T (IM) Vitorelli\\n  - **Email:** rafael.vitorelli@marinha.mil.br\\n  - **Telefone:** 21 9755-51168\\n- **Fiscal Substituto:** 1T (IM) Jully\\n  - **Email:** jully@marinha.mil.br\\n\\n**Sanção Administrativa:**\\n- Multa de 0,5% do valor do contrato por sucessivas entregas com material de baixa qualidade\\n\\n---\\n\\n### **Contrato 2**\\n\\n- **Número do Contrato:** 72100/2025-002/00\\n- **Processo Administrativo:** 62094.000247/2025-02\\n- **Modalidade de Licitação:** Pregão Eletrônico\\n- **Objeto:** Contratação de serviço de dedetização\\n- **Órgão Contratante:** Centro de Instrução Almirante Newton Braga\\n\\n**Contratada:**\\n- **Nome:** Insetmil LTDA\\n- **CNPJ:** 97.858.362/3777-79\\n- **Representante Legal:** Ana Lúcia Castro\\n- **Endereço:** Rua Lopes Souza, nº 10 - Madureira, Rio de Janeiro - RJ\\n- **Telefone:** 21 2569-8475\\n- **Email:** emaildenovoda@empresa.com\\n\\n**Detalhes Financeiros:**\\n- **Valor Total:** R$ 50.000,00\\n- **Data de Assinatura:** 10/07/2024\\n- **Vigência:** 10/07/2024 a 10/07/2026\\n- **Data Base para Reajuste:** 10/07/2025\\n- **Índice de Reajuste:** IPCA\\n- **Tipo de Garantia:** Seguro-garantia\\n- **Valor da Garantia:** R$ 2.500,00\\n- **Vigência da Garantia:** Até 08/10/2026\\n\\n**Gestão e Fiscalização:**\\n- **Gestora do Contrato:** 1T (IM) Monique Dias\\n  - **Email:** monique.pereira@marinha.mil.br\\n  - **Telefone:** 21 9654-66460\\n- **Fiscal Administrativo:** 1T (IM) Helena Dias\\n  - **Email:** helena.dias@marinha.mil.br\\n  - **Telefone:** 21 9963-09140\\n- **Fiscal Técnico:** 1T (IM) Bandeira\\n  - **Email:** pedro.bandeira@marinha.mil.br\\n  - **Telefone:** 21 9993-11495\\n- **Fiscal Substituto:** 1T (IM) Nelson\\n  - **Email:** nelson123@marinh23a.mil.br\\n\\n**Sanção Administrativa:**\\n- Advertência por atraso na prestação do serviço\\n\\n---\\n\\nSe precisar de mais informações ou ajustes, estou à disposição!\"}]"
+  },
+  {
+    "id": "WTNpq0lTtBrIajUR",
+    "role": "user",
+    "content": "Tente novamente a query que nao deu certo",
+    "createdAt": "2025-06-12T18:44:10.601Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Tente novamente a query que nao deu certo\"}]"
+  },
+  {
+    "id": "msg-NFJuzu7JZ22gllrmVdVr7LOA",
+    "role": "assistant",
+    "content": "Ainda não consegui encontrar informações sobre as datas de término dos contratos 72100/2025-001/00 e 72100/2025-002/00. \n\nSe houver algo mais que eu possa fazer para ajudar, por favor, me avise!",
+    "createdAt": "2025-06-12T18:44:27.401Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_yj8t8KpWVMcU1UEPg1T9ZaJU\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Data de término dos contratos 72100/2025-001/00 e 72100/2025-002/00\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Ainda não consegui encontrar informações sobre as datas de término dos contratos 72100/2025-001/00 e 72100/2025-002/00. \\n\\nSe houver algo mais que eu possa fazer para ajudar, por favor, me avise!\"}]"
+  },
+  {
+    "id": "QvPZkg3xmUA3dDn5",
+    "role": "user",
+    "content": "Veja quando termina a vigência dos 2 contratos",
+    "createdAt": "2025-06-12T18:45:11.668Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Veja quando termina a vigência dos 2 contratos\"}]"
+  },
+  {
+    "id": "msg-869HdYKnz5BEdl7PTOc8JKLU",
+    "role": "assistant",
+    "content": "As vigências dos contratos ativos são as seguintes:\n\n1. **Contrato 72100/2025-001/00**\n   - **Vigência:** 20/07/2024 a 20/07/2026\n\n2. **Contrato 72100/2025-002/00**\n   - **Vigência:** 10/07/2024 a 10/07/2026\n\nSe precisar de mais informações ou assistência, estou à disposição!",
+    "createdAt": "2025-06-12T18:45:16.898Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"As vigências dos contratos ativos são as seguintes:\\n\\n1. **Contrato 72100/2025-001/00**\\n   - **Vigência:** 20/07/2024 a 20/07/2026\\n\\n2. **Contrato 72100/2025-002/00**\\n   - **Vigência:** 10/07/2024 a 10/07/2026\\n\\nSe precisar de mais informações ou assistência, estou à disposição!\"}]"
+  },
+  {
+    "id": "0tuHlZBOlRORA4qQ",
+    "role": "user",
+    "content": "Avise ao Lenderson, via email. contato@lenderson.com.br",
+    "createdAt": "2025-06-12T18:45:46.677Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Avise ao Lenderson, via email. contato@lenderson.com.br\"}]"
+  },
+  {
+    "id": "msg-4hhgib1zaAstpADYNpkgdva0",
+    "role": "assistant",
+    "content": "Parece que houve um problema ao tentar enviar o email, pois o contrato não foi encontrado no sistema de envio. \n\nSe desejar, posso tentar novamente ou verificar outra forma de comunicação. Por favor, me avise como gostaria de proceder!",
+    "createdAt": "2025-06-12T18:45:54.146Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_LH3Rgpj8LpcGFvbIfPVlR8rw\",\"toolName\":\"sendEmail\",\"args\":{\"contractNumber\":\"72100/2025-001/00 e 72100/2025-002/00\",\"updateDescription\":\"Informação sobre a vigência dos contratos 72100/2025-001/00 e 72100/2025-002/00.\",\"actionRequired\":\"Nenhuma ação necessária, apenas para conhecimento.\",\"updateType\":\"Informativo sobre vigência dos contratos\"},\"result\":{\"success\":true,\"message\":\"Email enviado com sucesso.\",\"data\":{\"contractNumber\":\"72100/2025-001/00 e 72100/2025-002/00\",\"updateDescription\":\"Informação sobre a vigência dos contratos 72100/2025-001/00 e 72100/2025-002/00.\",\"actionRequired\":\"Nenhuma ação necessária, apenas para conhecimento.\",\"updateType\":\"Informativo sobre vigência dos contratos\",\"result\":{\"success\":false,\"message\":\"Contrato não encontrado.\"}}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Parece que houve um problema ao tentar enviar o email, pois o contrato não foi encontrado no sistema de envio. \\n\\nSe desejar, posso tentar novamente ou verificar outra forma de comunicação. Por favor, me avise como gostaria de proceder!\"}]"
+  },
+  {
+    "id": "REjbgQAPwnfZgV9H",
+    "role": "user",
+    "content": "Tente novamente ",
+    "createdAt": "2025-06-12T18:46:15.623Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Tente novamente \"}]"
+  },
+  {
+    "id": "msg-5eN9eB8pOcUJaFQTFgp763hr",
+    "role": "assistant",
+    "content": "Ainda estou enfrentando dificuldades para enviar o email, pois o contrato não está sendo encontrado no sistema de envio.\n\nSe houver outra forma de comunicação que você gostaria de tentar, ou se houver algo mais que eu possa fazer, por favor, me avise!",
+    "createdAt": "2025-06-12T18:46:22.708Z",
+    "chatId": "cmbtore0c0000l704a0blhzsj",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_HSkS9weHiapbkBUBYizof2Xb\",\"toolName\":\"sendEmail\",\"args\":{\"contractNumber\":\"72100/2025-001/00\",\"updateDescription\":\"Informação sobre a vigência dos contratos 72100/2025-001/00 e 72100/2025-002/00. O contrato 72100/2025-001/00 tem vigência até 20/07/2026 e o contrato 72100/2025-002/00 tem vigência até 10/07/2026.\",\"actionRequired\":\"Nenhuma ação necessária, apenas para conhecimento.\",\"updateType\":\"Informativo sobre vigência dos contratos\"},\"result\":{\"success\":true,\"message\":\"Email enviado com sucesso.\",\"data\":{\"contractNumber\":\"72100/2025-001/00\",\"updateDescription\":\"Informação sobre a vigência dos contratos 72100/2025-001/00 e 72100/2025-002/00. O contrato 72100/2025-001/00 tem vigência até 20/07/2026 e o contrato 72100/2025-002/00 tem vigência até 10/07/2026.\",\"actionRequired\":\"Nenhuma ação necessária, apenas para conhecimento.\",\"updateType\":\"Informativo sobre vigência dos contratos\",\"result\":{\"success\":false,\"message\":\"Contrato não encontrado.\"}}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Ainda estou enfrentando dificuldades para enviar o email, pois o contrato não está sendo encontrado no sistema de envio.\\n\\nSe houver outra forma de comunicação que você gostaria de tentar, ou se houver algo mais que eu possa fazer, por favor, me avise!\"}]"
+  },
+  {
+    "id": "N0N3uIqpbVTpWqnH",
+    "role": "user",
+    "content": "Quantos dias faltam para o vencimento do contrato mais próximo?",
+    "createdAt": "2025-06-14T03:27:13.864Z",
+    "chatId": "cmbvodz3c0000s7y00azo6e85",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Quantos dias faltam para o vencimento do contrato mais próximo?\"}]"
+  },
+  {
+    "id": "msg-l4EtnjcksLCOvFvj9oFXARpJ",
+    "role": "assistant",
+    "content": "O contrato mais próximo a vencer é o de número **72100/2025-002/00**, e faltam **391 dias** para o seu vencimento.",
+    "createdAt": "2025-06-14T03:27:19.584Z",
+    "chatId": "cmbvodz3c0000s7y00azo6e85",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_BJMOJr2midD8XkEnsAHUXlPg\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"dias restantes para o vencimento do contrato mais próximo\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[{\"numeroContrato\":\"72100/2025-002/00 \",\"diasRestantes\":{\"days\":391}}]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"O contrato mais próximo a vencer é o de número **72100/2025-002/00**, e faltam **391 dias** para o seu vencimento.\"}]"
+  },
+  {
+    "id": "p3tAluQ2fZ4s3GHV",
+    "role": "user",
+    "content": "Liste todos os contratos que vencem em 30 dias",
+    "createdAt": "2025-06-25T09:46:09.868Z",
+    "chatId": "cmcbrro7b0000jp04efn0765y",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Liste todos os contratos que vencem em 30 dias\"}]"
+  },
+  {
+    "id": "msg-1ULgdZi36uQGFww0VDuqkCDS",
+    "role": "assistant",
+    "content": "Nenhum contrato foi encontrado que vença em 30 dias a partir de hoje. Se precisar de mais alguma informação ou ajuda, estou à disposição!",
+    "createdAt": "2025-06-25T09:46:20.045Z",
+    "chatId": "cmcbrro7b0000jp04efn0765y",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_RnA5ZpqXJ5mwwiwvy9BqY9YK\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Listar todos os contratos que vencem em 30 dias a partir de hoje.\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Nenhum contrato foi encontrado que vença em 30 dias a partir de hoje. Se precisar de mais alguma informação ou ajuda, estou à disposição!\"}]"
+  },
+  {
+    "id": "tWlKP9B2tOnRutxy",
+    "role": "user",
+    "content": "Quais sao os contratos vigentes",
+    "createdAt": "2025-06-25T09:46:30.427Z",
+    "chatId": "cmcbrro7b0000jp04efn0765y",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Quais sao os contratos vigentes\"}]"
+  },
+  {
+    "id": "msg-jQjssmUps0IPrjqsKi2I1Igv",
+    "role": "assistant",
+    "content": "Aqui estão os contratos vigentes:\n\n1. **Contrato 72100/2025-001/00**\n   - **Processo Administrativo:** 62094.000247/2025-01\n   - **Modalidade de Licitação:** Pregão Eletrônico\n   - **Objeto:** Aquisição de sistema de exaustão\n   - **Órgão Contratante:** Centro de Instrução Almirante Newton Braga\n   - **Nome da Contratada:** Equipamentos de Cozinha LTDA\n   - **CNPJ da Contratada:** 99.658.112/3337-77\n   - **Representante Legal:** Márcio Souza Lima\n   - **Endereço da Contratada:** Avenida Brasil, nº 900 - Benfica, Rio de Janeiro - RJ\n   - **Telefone da Contratada:** (21) 3695-8569\n   - **Email da Contratada:** emaildaempresa@gmail.com\n   - **Valor Total:** R$ 250.000,00\n   - **Data de Assinatura:** 20/07/2024\n   - **Vigência:** 20/07/2024 a 20/07/2026\n   - **Gestor do Contrato:** 1T (IM) Monique Dias\n   - **Email do Gestor:** monique.pereira@marinha.mil.br\n   - **Telefone do Gestor:** (21) 96546-6460\n\n2. **Contrato 72100/2025-002/00**\n   - **Processo Administrativo:** 62094.000247/2025-02\n   - **Modalidade de Licitação:** Pregão Eletrônico\n   - **Objeto:** Contratação de serviço de dedetização\n   - **Órgão Contratante:** Centro de Instrução Almirante Newton Braga\n   - **Nome da Contratada:** Insetmil LTDA\n   - **CNPJ da Contratada:** 97.858.362/3777-9\n   - **Representante Legal:** Ana Lúcia Castro\n   - **Endereço da Contratada:** Rua Lopes Souza, nº 10 - Madureira, Rio de Janeiro - RJ\n   - **Telefone da Contratada:** (21) 2569-8475\n   - **Email da Contratada:** emaildenovoda@empresa.com\n   - **Valor Total:** R$ 50.000,00\n   - **Data de Assinatura:** 10/07/2024\n   - **Vigência:** 10/07/2024 a 10/07/2026\n   - **Gestor do Contrato:** 1T (IM) Monique Dias\n   - **Email do Gestor:** monique.pereira@marinha.mil.br\n   - **Telefone do Gestor:** (21) 96546-6460\n\nSe precisar de mais detalhes ou ajuda, estou à disposição!",
+    "createdAt": "2025-06-25T09:47:09.721Z",
+    "chatId": "cmcbrro7b0000jp04efn0765y",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_V6fMnogeuVsGvZq2DSWHaTrL\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"Listar todos os contratos vigentes.\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[{\"id\":\"e6b48533-136e-47a8-ab46-a36dd3622952\",\"numeroContrato\":\"72100/2025-001/00 \",\"processoAdministrativo\":\"62094.000247/2025-01\",\"modalidadeLicitacao\":\"Pregão Eletrônico\",\"objeto\":\"Aquisição de sistema de exaustão\",\"orgaoContratante\":\"Centro de Instrução Almirante Newton Braga\",\"nomeContratada\":\"Equipamentos de Cozinha LTDA\",\"cnpjContratada\":\"9965811233377\",\"representanteLegal\":\"MÁRCIO SOUZA LIMA\",\"enderecoContratada\":\"Avenida Brasil, nº 900 - Benfica, Rio de Janeiro - RJ\",\"telefoneContratada\":\"2136958569\",\"emailContratada\":\"emaildaempresa@gmail.com\",\"valorTotal\":250000,\"dataAssinatura\":\"2024-07-20T00:00:00.000Z\",\"vigenciaInicio\":\"2024-07-20T00:00:00.000Z\",\"vigenciaTermino\":\"2026-07-20T00:00:00.000Z\",\"dataBaseReajuste\":\"2025-07-20T00:00:00.000Z\",\"indiceReajuste\":\"IPCA\",\"tipoGarantia\":\"Seguro-garantia\",\"valorGarantia\":12500,\"vigenciaGarantia\":\"2026-10-18T00:00:00.000Z\",\"gestorContrato\":\"1T (IM) MONIQUE DIAS\",\"portariaGestor\":\"Portaria nº 84/2024\",\"emailGestor\":\"monique.pereira@marinha.mil.br\",\"telefoneGestor\":\"21965466460\",\"fiscalAdministrativo\":\"1T (IM) LARA CORREA\",\"portariaFiscalAdm\":\"Portaria nº 84/2024\",\"emailFiscalAdm\":\"lara.correa@marinha.mil.br\",\"telefoneFiscalAdm\":\"21998093933\",\"fiscalTecnico\":\"1T (IM) VITORELLI\",\"portariaFiscalTec\":\"Portaria nº 84/2024\",\"emailFiscalTec\":\"rafael.vitorelli@marinha.mil.br\",\"telefoneFiscalTec\":\"21975551168\",\"fiscalSubstituto\":\"1T (IM) JULLY\",\"portariaFiscalSub\":\"Portaria nº 84/2024\",\"emailFiscalSub\":\"jully@marinha.mil.br\",\"sancaoAdministrativa\":\"Multa de 0,5% do valor do contrato por sucessivas entregas com material de baixa qualidade\",\"createdAt\":\"2025-06-12T00:27:11.511Z\",\"updatedAt\":\"2025-06-12T00:27:11.511Z\",\"userId\":null},{\"id\":\"690eb404-aa99-4833-8260-2d474b7e50cf\",\"numeroContrato\":\"72100/2025-002/00 \",\"processoAdministrativo\":\"62094.000247/2025-02\",\"modalidadeLicitacao\":\"Pregão Eletrônico\",\"objeto\":\"Contratação de serviço de dedetização\",\"orgaoContratante\":\"Centro de Instrução Almirante Newton Braga\",\"nomeContratada\":\"Insetmil LTDA\",\"cnpjContratada\":\"9785836237779\",\"representanteLegal\":\"ANA LÚCIA CASTRO\",\"enderecoContratada\":\"Rua Lopes Souza, nº 10 - Madureira, Rio de Janeiro - RJ\",\"telefoneContratada\":\"2125698475\",\"emailContratada\":\"emaildenovoda@empresa.com\",\"valorTotal\":50000,\"dataAssinatura\":\"2024-07-10T00:00:00.000Z\",\"vigenciaInicio\":\"2024-07-10T00:00:00.000Z\",\"vigenciaTermino\":\"2026-07-10T00:00:00.000Z\",\"dataBaseReajuste\":\"2025-07-10T00:00:00.000Z\",\"indiceReajuste\":\"IPCA\",\"tipoGarantia\":\"Seguro-garantia\",\"valorGarantia\":2500,\"vigenciaGarantia\":\"2026-10-08T00:00:00.000Z\",\"gestorContrato\":\"1T (IM) MONIQUE DIAS\",\"portariaGestor\":\"Portaria nº 82/2024\",\"emailGestor\":\"monique.pereira@marinha.mil.br\",\"telefoneGestor\":\"21965466460\",\"fiscalAdministrativo\":\"1T (IM) HELENA DIAS\",\"portariaFiscalAdm\":\"Portaria nº 82/2024\",\"emailFiscalAdm\":\"helena.dias@marinha.mil.br\",\"telefoneFiscalAdm\":\"21996309140\",\"fiscalTecnico\":\"1T (IM) BANDEIRA\",\"portariaFiscalTec\":\"Portaria nº 82/2024\",\"emailFiscalTec\":\"pedro.bandeira@marinha.mil.br\",\"telefoneFiscalTec\":\"21999311495\",\"fiscalSubstituto\":\"1T (IM) NELSON\",\"portariaFiscalSub\":\"Portaria nº 82/2024\",\"emailFiscalSub\":\"nelson123@marinh23a.mil.br\",\"sancaoAdministrativa\":\"Advertência por atraso na prestação do serviço\",\"createdAt\":\"2025-06-12T00:44:57.235Z\",\"updatedAt\":\"2025-06-12T00:44:57.235Z\",\"userId\":null}]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"Aqui estão os contratos vigentes:\\n\\n1. **Contrato 72100/2025-001/00**\\n   - **Processo Administrativo:** 62094.000247/2025-01\\n   - **Modalidade de Licitação:** Pregão Eletrônico\\n   - **Objeto:** Aquisição de sistema de exaustão\\n   - **Órgão Contratante:** Centro de Instrução Almirante Newton Braga\\n   - **Nome da Contratada:** Equipamentos de Cozinha LTDA\\n   - **CNPJ da Contratada:** 99.658.112/3337-77\\n   - **Representante Legal:** Márcio Souza Lima\\n   - **Endereço da Contratada:** Avenida Brasil, nº 900 - Benfica, Rio de Janeiro - RJ\\n   - **Telefone da Contratada:** (21) 3695-8569\\n   - **Email da Contratada:** emaildaempresa@gmail.com\\n   - **Valor Total:** R$ 250.000,00\\n   - **Data de Assinatura:** 20/07/2024\\n   - **Vigência:** 20/07/2024 a 20/07/2026\\n   - **Gestor do Contrato:** 1T (IM) Monique Dias\\n   - **Email do Gestor:** monique.pereira@marinha.mil.br\\n   - **Telefone do Gestor:** (21) 96546-6460\\n\\n2. **Contrato 72100/2025-002/00**\\n   - **Processo Administrativo:** 62094.000247/2025-02\\n   - **Modalidade de Licitação:** Pregão Eletrônico\\n   - **Objeto:** Contratação de serviço de dedetização\\n   - **Órgão Contratante:** Centro de Instrução Almirante Newton Braga\\n   - **Nome da Contratada:** Insetmil LTDA\\n   - **CNPJ da Contratada:** 97.858.362/3777-9\\n   - **Representante Legal:** Ana Lúcia Castro\\n   - **Endereço da Contratada:** Rua Lopes Souza, nº 10 - Madureira, Rio de Janeiro - RJ\\n   - **Telefone da Contratada:** (21) 2569-8475\\n   - **Email da Contratada:** emaildenovoda@empresa.com\\n   - **Valor Total:** R$ 50.000,00\\n   - **Data de Assinatura:** 10/07/2024\\n   - **Vigência:** 10/07/2024 a 10/07/2026\\n   - **Gestor do Contrato:** 1T (IM) Monique Dias\\n   - **Email do Gestor:** monique.pereira@marinha.mil.br\\n   - **Telefone do Gestor:** (21) 96546-6460\\n\\nSe precisar de mais detalhes ou ajuda, estou à disposição!\"}]"
+  },
+  {
+    "id": "vQ12WeRZwWRP26hg",
+    "role": "user",
+    "content": "Quantos dias faltam para o vencimento do contrato mais próximo?",
+    "createdAt": "2025-06-26T12:57:52.693Z",
+    "chatId": "cmcde228r0000l404j5l5gd8d",
+    "toolInvocations": "[{\"type\":\"text\",\"text\":\"Quantos dias faltam para o vencimento do contrato mais próximo?\"}]"
+  },
+  {
+    "id": "msg-TNr8Ys6SrKdLqGyJJrDq0TyT",
+    "role": "assistant",
+    "content": "O contrato mais próximo a vencer tem 379 dias restantes até o seu vencimento. Se precisar de mais informações ou assistência, estou à disposição para ajudar!",
+    "createdAt": "2025-06-26T12:58:05.761Z",
+    "chatId": "cmcde228r0000l404j5l5gd8d",
+    "toolInvocations": "[{\"type\":\"step-start\"},{\"type\":\"tool-invocation\",\"toolInvocation\":{\"state\":\"result\",\"step\":0,\"toolCallId\":\"call_XcPH1SiVhgzmf9oRtEsRQQDj\",\"toolName\":\"getInformationAboutContract\",\"args\":{\"input\":\"dias restantes para o vencimento do contrato mais próximo\"},\"result\":{\"success\":true,\"message\":\"Consulta SQL executada com sucesso.\",\"data\":{\"result\":[{\"dias_restantes\":{\"days\":379}}]}}}},{\"type\":\"step-start\"},{\"type\":\"text\",\"text\":\"O contrato mais próximo a vencer tem 379 dias restantes até o seu vencimento. Se precisar de mais informações ou assistência, estou à disposição para ajudar!\"}]"
+  }
+]
